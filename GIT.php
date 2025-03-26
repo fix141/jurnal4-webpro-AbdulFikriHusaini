@@ -1,6 +1,6 @@
 <?php
 $host = "localhost";
-$user = "root"; // Ubah sesuai konfigurasi MySQL Anda
+$user = "root";
 $pass = "";
 $db   = "db_bioskop";
 

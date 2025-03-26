@@ -1,5 +1,5 @@
 <?php
-include 'GIT.php';
+include 'dbconfig.php';
 
 $query = "SELECT * FROM film";
 $result = mysqli_query($conn, $query);
@@ -14,7 +14,7 @@ $result = mysqli_query($conn, $query);
 </head>
 <body>
     <h2>Daftar Film</h2>
-    <table border="1">
+    <table border="1" cellpadding="5" cellspacing="1">
         <tr>
             <th>ID</th>
             <th>Judul</th>

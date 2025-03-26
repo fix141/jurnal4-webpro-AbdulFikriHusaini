@@ -2,9 +2,9 @@
 $host = "localhost";
 $user = "root";
 $pass = "";
-$db   = "db_bioskop";
+$dbname   = "db_bioskop";
 
-$conn = mysqli_connect($host, $user, $pass, $db);
+$conn = mysqli_connect($host, $user, $pass, $dbname);
 
 if (!$conn) {
     die("Koneksi gagal: " . mysqli_connect_error());
